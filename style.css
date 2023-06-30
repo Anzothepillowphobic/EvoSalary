@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fl{
+    display: flex;
+}
+.conteiner{
+    height: 126vh;
+    background: #021e46b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calc{
+    width: 75%;
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calc form select{
+    width: 19%;
+    border: 0;
+    outline: 0;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.025), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;   
+    font-weight: bold;
+    
+}
+.calc form button{
+    width: 62%;
+    border: 0;
+    outline: 0;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.025), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    width: 300px; 
+    color: wheat;
+    font-weight: bold;
+
+} 
+.calc form input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.025), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;   
+}
+form .display{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+.calc form p{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.025), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;   
+}
+form .display p{
+    text-align: right;
+    font-size: 45px;
+}
+
+::placeholder{
+    color: grey;
+    font-weight: bold;
+}
+
+
+
+
+@media only screen and (max-width:758px){
+    .calc{
+        width: 90%;
+    }
+    .calc form button{
+        width: 33%;
+    }
+    .calc form select{
+        width: 33%;
+    }
+}

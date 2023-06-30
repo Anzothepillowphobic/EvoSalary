@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Salary Calculator</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="calc">
+            <form onsubmit="handlesubmit">
+                <div>
+                    <div class="display">
+                        <p id="output"></p>
+                    </div>
+                    <div class="fl">
+                        <select id="stage">
+                            <option value="stage 1">Stage 1</option>
+                            <option value="stage 2">Stage 2</option>
+                            <option value="stage 3">Stage 3</option>
+                        </select>
+                        <select id="shift">
+                            <option value="morning">Morning/After</option>
+                            <option value="night">Night</option>
+                        </select>
+                        <button id="button">Calculate</button>
+                    </div>
+                </div>
+                <div>
+                    <div style="float: left;">
+                        <input type="number" step="any" id="working_hours" required placeholder="Working Hours"><br>
+                        <input type="number" step="any" id="sgc" required placeholder="SGC"><br>
+                        <input type="number" step="any" id="reaction_time" required placeholder="Reaction Time %"><br>
+                        <input type="number" step="any" id="pa" required placeholder="PA %"><br>
+                        <input type="number" step="any" id="game_speed" required placeholder="Game Speed %"><br>
+                        <input type="number" step="any" id="roulette_cooperation" placeholder="Roulette Cooperation %"><br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
