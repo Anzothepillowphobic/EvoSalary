@@ -39,7 +39,7 @@ F.addEventListener('click', (ev)=>{
              anhr = Math.round((anhr+0.4)*100)/100
          }
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         //alert(anhr)
         //alert(working_hours)
         //alert(total_gross)
@@ -84,7 +84,7 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         
         ev.preventDefault();
         out1.textContent=total;
@@ -140,7 +140,7 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         
         ev.preventDefault();
         out1.textContent=total;
@@ -162,7 +162,7 @@ F.addEventListener('click', (ev)=>{
              anhr = Math.round((anhr+0.4)*100)/100
          }
          total_gross = Math.round((anhr*working_hours)*100/100)
-         total = Math.round((total_gross*0.78)*100)/100
+         total = Math.round((total_gross*0.784)*100)/100
          ev.preventDefault();
          out1.textContent=total;
     }
@@ -201,7 +201,7 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         ev.preventDefault();
         out1.textContent=total;
     }
@@ -256,7 +256,7 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         ev.preventDefault();
         out1.textContent=total;
     }
@@ -276,7 +276,7 @@ F.addEventListener('click', (ev)=>{
              anhr = Math.round((anhr+0.4)*100)/100
          }
          total_gross = Math.round((anhr*working_hours)*100/100)
-         total = Math.round((total_gross*0.78)*100)/100
+         total = Math.round((total_gross*0.784)*100)/100
          ev.preventDefault();
          out1.textContent=total;
     }
@@ -315,7 +315,7 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         ev.preventDefault();
         out1.textContent=total;
     }
@@ -370,7 +370,7 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         ev.preventDefault();
         out1.textContent=total;
     }
@@ -390,7 +390,7 @@ F.addEventListener('click', (ev)=>{
              anhr = Math.round((anhr+0.4)*100)/100
          }
          total_gross = Math.round((anhr*working_hours)*100/100)
-         total = Math.round((total_gross*0.78)*100)/100
+         total = Math.round((total_gross*0.784)*100)/100
          ev.preventDefault();
          out1.textContent=total;
     }
@@ -429,7 +429,7 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         ev.preventDefault();
         out1.textContent=total;
     }
@@ -484,7 +484,7 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         ev.preventDefault();
         out1.textContent=total;
     }
@@ -504,7 +504,7 @@ F.addEventListener('click', (ev)=>{
              anhr = Math.round((anhr+0.4)*100)/100
          }
          total_gross = Math.round((anhr*working_hours)*100/100)
-         total = Math.round((total_gross*0.78)*100)/100
+         total = Math.round((total_gross*0.784)*100)/100
          ev.preventDefault();
          out1.textContent=total;
     }
@@ -543,7 +543,7 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         ev.preventDefault();
         out1.textContent=total;
     }
@@ -598,7 +598,7 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         ev.preventDefault();
         out1.textContent=total;
     }
@@ -618,7 +618,7 @@ F.addEventListener('click', (ev)=>{
              anhr = Math.round((anhr+0.4)*100)/100
          }
          total_gross = Math.round((anhr*working_hours)*100/100)
-         total = Math.round((total_gross*0.78)*100)/100
+         total = Math.round((total_gross*0.784)*100)/100
          ev.preventDefault();
          out1.textContent=total;
     }
@@ -657,7 +657,7 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         ev.preventDefault();
         out1.textContent=total;
     }
@@ -712,14 +712,14 @@ F.addEventListener('click', (ev)=>{
         }
     
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         ev.preventDefault();
         out1.textContent=total;
     }
     
     function no_bonus(){
         total_gross = Math.round((anhr*working_hours)*100/100)
-        total = Math.round((total_gross*0.78)*100)/100
+        total = Math.round((total_gross*0.784)*100)/100
         ev.preventDefault();
         out1.textContent=total;
     }
